@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main{
+  display: block;
+  background: rgb(170,205,190);
+  background: 
+  url('assets/grid_background.png'),
+  linear-gradient(328deg, rgba(170,205,190,1) 0%, rgba(244,247,197,1) 53%);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar{
+  display: flex;
+  padding: 20px;
+  padding-left: 50px;
+  align-items: center;
+}
+
+.navbar img{
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar a{
+  display: contents;
+  text-decoration: none;
+}
+
+.navbar h3{
+  text-align: center;
+  text-decoration: none;
+  color: #EA907A;
+  padding-top: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: 1.25em;
+}
+
+.home{
+  display: flex;
+  padding: 30px;
+  padding-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home div{
+  flex-grow: 500px;
+  flex-basis: 600px;
+  padding-right: 50px;
+}
+
+.home h1{
+  background: rgb(234,144,122);
+  background: linear-gradient(144deg, rgba(234,144,122,1) 0%, rgba(251,198,135,1) 84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-weight: bolder;
+  font-size: 5em;
+  flex-grow: 500px;
+  flex-basis: 500px;
+}
+
+.home p{
+  padding-top: 20px;
+  color: #EA907A;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-size: 1.5em;
+}
+
+.home img{
+  width: 400px;
+  height: auto;
+  border-radius: 40px;
+}
+
+.home button{
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border-color: #EA907A;
+  color: #EA907A;
+  background-color: #f4f7c5;
+  font-size: 1.8em;
+  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-weight: bold;
+}
+
+.home button:hover{
+  color: #f4f7c5;
+  background-color: #EA907A;
+}
