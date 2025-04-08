@@ -3,96 +3,345 @@
   padding: 0px;
 }
 
-.main{
+body{
+  align-items: center;
+  justify-self: center;
+}
+
+.main {
   display: block;
-  background: rgb(170,205,190);
-  background: 
-  url('assets/grid_background.png'),
-  linear-gradient(328deg, rgba(170,205,190,1) 0%, rgba(244,247,197,1) 53%);
+  background: rgb(170, 205, 190);
+  background: url("assets/grid_background.png"),
+    linear-gradient(
+      328deg,
+      rgba(170, 205, 190, 1) 0%,
+      rgba(244, 247, 197, 1) 53%
+    );
   background-size: cover;
   background-position: center;
 }
 
-.navbar{
+.navbar {
+  position: fixed;
   display: flex;
   padding: 20px;
   padding-left: 50px;
   align-items: center;
 }
 
-.navbar img{
+.navbar img {
   width: 40px;
   height: auto;
   margin-right: 10px;
 }
 
-.navbar a{
+.navbar a {
   display: contents;
   text-decoration: none;
 }
 
-.navbar h3{
+.navbar h3 {
   text-align: center;
   text-decoration: none;
-  color: #EA907A;
+  color: #ea907a;
   padding-top: 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 1.25em;
 }
 
-.home{
+.home {
   display: flex;
   padding: 30px;
+  padding-top: 100px;
   padding-left: 50px;
   align-items: center;
   justify-content: center;
 }
 
-.home div{
+.home div {
   flex-grow: 500px;
   flex-basis: 600px;
   padding-right: 50px;
 }
 
-.home h1{
-  background: rgb(234,144,122);
-  background: linear-gradient(144deg, rgba(234,144,122,1) 0%, rgba(251,198,135,1) 84%);
+.home h1 {
+  background: rgb(234, 144, 122);
+  background: linear-gradient(
+    144deg,
+    rgba(234, 144, 122, 1) 0%,
+    rgba(251, 198, 135, 1) 84%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-weight: bolder;
   font-size: 5em;
-  flex-grow: 500px;
+  flex-grow: 1;
   flex-basis: 500px;
 }
 
-.home p{
+.home p {
   padding-top: 20px;
-  color: #EA907A;
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-size: 1.5em;
 }
 
-.home img{
+.home img {
   width: 400px;
   height: auto;
   border-radius: 40px;
 }
 
-.home button{
+.home button {
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
-  border-color: #EA907A;
-  color: #EA907A;
+  border-color: #ea907a;
+  color: #ea907a;
   background-color: #f4f7c5;
   font-size: 1.8em;
-  font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
   font-weight: bold;
 }
 
-.home button:hover{
+.home button:hover {
   color: #f4f7c5;
-  background-color: #EA907A;
+  background-color: #ea907a;
+}
+
+.secpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.secpage img {
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.secpage .benefit {
+  margin-left: 80px;
+}
+.benefit {
+  width: 500px;
+  height: auto;
+}
+
+.benefit h2 {
+  padding-bottom: 20px;
+  font-size: 3em;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.benefit-list {
+  list-style-position: outside;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.benefit-list li {
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.thirdpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.thirdpage article{
+  margin-right: 80px;
+  width: 500px;
+  height: auto;
+}
+
+.thirdpage h2{
+  padding-bottom: 20px;
+  font-size: 3em;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.thirdpage p{
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.thirdpage img{
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.reading-journey{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reading-journey section{
+  background: rgb(170, 205, 190);
+  background: url("assets/grid_background.png"),
+    linear-gradient(
+      328deg,
+      rgba(170, 205, 190, 1) 0%,
+      rgba(244, 247, 197, 1) 53%
+    );
+  display: block;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  width: 1300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+
+.reading-journey h1{
+  padding-top: 40px;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  font-size: 2.5vw;
+}
+
+.reading-journey ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  padding-top: 30px;
+  gap: 100px;
+  font-size: 1.5vw;
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.membership {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.membership h1{
+  font-size: 2.75vw;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  color: #ea907a;
+}
+
+.options{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  grid-template-columns: 300px 350px 300px;
+  gap: 20px;
+}
+
+.starter , .pro , .enterprise{
+  border: solid lightgray;
+  text-align: start;
+  border-radius: 20px;
+  display: block;
+}
+
+.starter, .enterprise{
+  height: 400px;
+  padding: 20px;
+}
+
+.options h3{
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  font-size: 2vw;
+}
+
+.options h4, ul{
+  color: #ea907a;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  padding-top: 20px;
+  font-size: 1.5vw;
+}
+
+.pro{
+  background: rgb(170, 205, 190);
+  background: linear-gradient(
+      328deg,
+      rgba(170, 205, 190, 1) 0%,
+      rgba(244, 247, 197, 1) 53%
+    );
+  height: 450px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.enterprise{
+  height: 400px;
+}
+
+.starter div, .enterprise div{
+  width: 250px;
+  border-bottom: solid lightgray;
+  padding-bottom: 30px;
+}
+
+.pro div{
+  width: 300px;
+  border-bottom: solid lightgray;
+  padding-bottom: 30px;
+}
+
+.options ul{
+  padding-left: 20px;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.options button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  border-color: #ea907a;
+  color: #ea907a;
+  background-color: #f4f7c5;
+  font-size: 1.25vw;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  font-weight: lighter;
+}
+
+.pro button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: lighter;
+  width: 305px;
+}
+
+.options button:hover{
+  background-color: #ea907a;
+  color: #f4f7c5;
 }
