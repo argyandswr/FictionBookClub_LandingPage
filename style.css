@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+p {
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  color: #ea907a;
+}
+
 body{
   align-items: center;
   justify-self: center;
@@ -151,7 +156,7 @@ body{
 .benefit-list li {
   padding: 5px;
   padding-bottom: 10px;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   color: #ea907a;
   font-family: "Gill Sans", "Gill Sans MT", sans-serif;
 }
@@ -344,4 +349,130 @@ body{
 .options button:hover{
   background-color: #ea907a;
   color: #f4f7c5;
+} 
+
+.quote-section{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  gap: 15px;
+  margin-bottom: 10px;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.quote-section img{
+  width: 150px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.quotes{
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.write-by {
+  padding-top: 15px;
+  font-size: 1.75vw;
+  text-align: center;
+  font-style: italic;
+}
+
+.footer{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ea907a;
+  width: 100%;
+  height: 380px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.footer h1{
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  color: #f5f5f5;
+  font-size: 3vw; 
+  font-weight: 500;
+}
+.connectmenu{
+  display: inline-block;
+  margin-bottom: 110px;
+}
+
+.connect{
+  margin-top: 40px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  width: 250px;
+  font-size: 1.25vw;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+  color: white;
+  font-weight: bold;
+  border: #AACDBE solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.connect-list{
+  display: none;
+  position: absolute;
+  background-color: #AACDBE;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 250px;
+}
+
+.connect-list a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 10px;
+  font-size: 1.15vw;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+
+.connect-list a:hover{
+  background-color: #668074;
+  border-radius: 10px;
+}
+
+.connectmenu:hover .connect{
+  border-color: #668074;
+  background-color: #668074;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
+.connectmenu:hover .connect-list{
+  display: block;
+}
+
+footer{
+  background-color: #ea907a;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+
+}
+
+.footer-content{
+  border-top: lightgray solid;
+  width: 85%;
+}
+
+.footer-content p{
+  color: white;
+  padding-top: 5px;
+  font-style: oblique;
 }
